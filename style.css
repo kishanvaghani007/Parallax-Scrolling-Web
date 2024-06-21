@@ -43,7 +43,7 @@ header ul{
 }
 header ul a{
     text-decoration: none;
-    /* color: #fff; */
+    color: #fff;
     padding: 0 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
@@ -105,7 +105,8 @@ main {
 }
 .parallax{
     pointer-events: none;
-    transform: translate(-50% , -50%);
+    transition: 0.45s cubic-bezier(.2,.46,.33,.99);
+    
 }
 .bg-image{
     position: absolute;
@@ -170,7 +171,7 @@ main {
 .text{
     position: absolute;
     z-index: 9;
-    top: calc(50% - 130px);
+    top: calc(50% - 160px);
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -240,8 +241,8 @@ main {
 .mountain-2 {
     position: absolute;
     width: 625px;
-    top: calc(50% + 140px);
-    left: calc(50% + 390px);
+    top: calc(50% + 180px);
+    left: calc(50% + 350px);
     z-index: 17;
 }
 .mountain-1 {
