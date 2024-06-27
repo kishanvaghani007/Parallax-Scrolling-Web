@@ -171,23 +171,33 @@ main {
 .text{
     position: absolute;
     z-index: 9;
-    top: calc(50% - 160px);
+    top: calc(50% - 100px);
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    color: #fff;
+    /* text-transform: uppercase; */
+    
     pointer-events: auto;
 }
-.text h2{
+/* .text h2{
     font-weight: 100;
     font-size: 6.5rem;
     line-height: 0.88;
-}
+} */
 .text h1{
-    font-weight: 800;
+    font-weight: 600;
     font-size: 8rem;
     line-height: 0.88;
+    text-transform: uppercase;
+    color: #fff;
+    
+    
+}
+.text h4{
+    font-weight: 500;
+    margin-top: 20px;
+    z-index: 45;
+    color:forestgreen ;
 }
 .mountain-6{
     position: absolute;
@@ -286,8 +296,18 @@ main {
     left: 0;
     background: radial-gradient(
         ellipse at center,
-        rgba(0,0.9,0,0) 65% ,
+        rgba(0,0.9,0,0) 55% ,
         rgba(0,0,0,0.7)
     );
     pointer-events: none;
+}
+
+/* PAGE 2 */
+
+.page-2 {
+    
+    height: 100%;
+    width: 100%;
+
+    background-color:#10191E;
 }
